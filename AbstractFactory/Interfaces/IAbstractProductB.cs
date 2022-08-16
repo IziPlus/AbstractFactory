@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Interfaces
 {
-    interface IShapeFactory
+    interface IAbstractProductB
     {
-        IShape GetShape(Shapes shapeType);
     }
 }

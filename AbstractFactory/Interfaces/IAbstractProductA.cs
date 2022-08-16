@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Interfaces
 {
-    public interface IShape
+    internal interface IAbstractProductA
     {
-        void Draw();
     }
 }

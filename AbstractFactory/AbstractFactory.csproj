@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConceretFactory2.cs" />
+    <Compile Include="ConceretFactory1.cs" />
+    <Compile Include="Interfaces\IAbstractFactory.cs" />
+    <Compile Include="Interfaces\IAbstractProductA.cs" />
+    <Compile Include="Interfaces\IAbstractProductB.cs" />
+    <Compile Include="ProducA2.cs" />
+    <Compile Include="ProducA1.cs" />
+    <Compile Include="ProductB1.cs" />
+    <Compile Include="ProductB2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
